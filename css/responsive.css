@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px) {
+
+/* SIDE NAVBAR*/
+aside {
+
+    width: 15%;
+    height: 100%;
+    background-color: #F5F5DC;
+    position: fixed;
+}
+
+aside nav {
+    height: 100%;
+    width: 100%;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+  }
