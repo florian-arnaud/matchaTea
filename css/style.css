@@ -1,3 +1,10 @@
+.merienda-<uniquifier > {
+  font-family: "Merienda", cursive;
+}
+.roboto-serif-<uniquifier > {
+  font-family: "Roboto Serif", serif;
+}
+
 header {
   background-color: #f5f5dc;
   display: flex;
@@ -10,22 +17,12 @@ body {
 }
 footer {
   background-color: #f5f5dc;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.leftSide {
-  height: 75vh;
-  width: 15vw;
-  background-color: #e8e8a8;
-  writing-mode: sideways-lr;
-}
-nav {
-  transform: rotate(-90deg);
-  display: flex;
-  justify-content: space-between;
-}
+
 .footerNav {
   display: flex;
   flex-direction: column;
@@ -40,10 +37,15 @@ button {
 a {
   text-decoration: none;
   color: #3b7b31;
+  font-family: "Merienda", cursive;
+}
+p {
+  font-family: "Roboto Serif", serif;
 }
 h2,
 h1 {
   color: #3b7b31;
+  font-family: "Merienda", cursive;
 }
 .logo {
   width: 5vw;
@@ -53,15 +55,62 @@ h1 {
   height: 50px;
 }
 
-.rightSide {
+aside {
+  width: 15%;
+  height: 90%;
+  background-color: #e8e8a8;
   display: flex;
+}
 
-  padding: 10px;
+aside nav {
+  height: 100%;
+  width: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(-180deg);
 }
-.container {
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  list-style: none;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.phares1 .phares2 .phares3 {
-  width: 10vw;
-  height: 10vh;
+
+.aFooter {
+  font-size: 15px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.product {
+  text-align: center;
+  max-width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
 }
