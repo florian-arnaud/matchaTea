@@ -59,7 +59,10 @@ aside {
 }
 #products>h2
 {
-text-align: center;
+  text-align: left;
+  margin: 5% 0 5% 5%;
+
+
 }
 article
 {
