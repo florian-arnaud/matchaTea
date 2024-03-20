@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>Matcha Tea - Contact</title>
-    </head>
-    <body>
-        <header>
-            <nav></nav>
-        </header>
-        <main></main>
-        <footer></footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Matcha Tea - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/images/icons8-matcha-tea-100.png" />
+      <h1>Matcha Tea</h1>
+      <img
+        class="logoprof"
+        src="/images/icons8-account-50.png"
+        alt="logo connexion"
+      />
+    </header>
+    <main>
+      <div class="container">
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">A propos</a></li>
+              <li><a href="#">Histoire</a></li>
+              <li><a href="#">Ventes</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="containerForm">
+            <div class="sidebar">
+              <h2>Restons en contact</h2>
+              <p>Si vous voulez voir plus de notre travail, collaborer ou même simplement discuter, laissez-nous un message ! Nous attendrons de vos nouvelles.</p>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="form-container">
+              <form>
+                <label for="civilite">Civilité* :</label>
+                <select id="civilite" name="civilite">
+                  <option value="M.">M.</option>
+                  <option value="Mme.">Mme.</option>
+                  <option value="Mlle.">Mlle.</option>
+                </select>
+                <label for="nom">Nom* :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email* :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message* :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+              </form>
+            </div>
+          </div>
+          
+    </main>
+    <footer>
+      <div class="footerNav">
+        <h2>Navigation</h2>
+        <a class="aFooter" href="#">Accueil</a>
+        <a class="aFooter" href="#">Ventes</a>
+        <a class="aFooter" href="#">Histoire</a>
+        <a class="aFooter" href="#">A propos</a>
+        <a class="aFooter" href="#">Contact</a>
+      </div>
+      <div class="footerMid">
+        <h2>Merci de votre visite!</h2>
+        <button>Restons en contact</button>
+
+        <p>La Plateforme_2024</p>
+      </div>
+      <div class="footerCoord">
+        <h2>Coordonnées</h2>
+        <p>8 rue d'Hozier</p>
+        <p>13002</p>
+        <p>Marseille</p>
+      </div>
+    </footer>
+  </body>
 </html>
