@@ -10,93 +10,102 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
     <header>
-      <img class="logo" src="/images/icons8-matcha-tea-100.png" />
+      <img class="logo" src="images/icons8-matcha-tea-100.png" />
       <h1>Matcha Tea</h1>
       <img
         class="logoprof"
-        src="/images/icons8-account-50.png"
-        alt="logo connexion"
-      />
+        src="images/icons8-account-50.png"
+        alt="logo connexion" />
     </header>
 
-    <main>
-      <div class="container">
-        <aside>
-          <nav>
-            <ul>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">A propos</a></li>
-              <li><a href="#">Histoire</a></li>
-              <li><a href="#">Ventes</a></li>
-            </ul>
-          </nav>
-        </aside>
-        <div class="content">
-          <div class="product">
-            <img class="product1" src="/images/matcha1.jpg" alt="Matcha 1" />
-            <h2>Thé matcha latte</h2>
-            <p>
-              Découvrez notre matcha de première qualité, récolté dans les
-              meilleurs jardins du Japon. Son goût délicat et ses vertus pour la
-              santé en font un choix parfait pour les amateurs de thé.
-            </p>
-            <a href="#" class="buy-button">Acheter maintenant</a>
-          </div>
+    <div class="main-container">
+      <aside id="desktop-navbar">
+        <nav>
+          <ul>
+            <li class="mobile-only"><a href="#"><img src="images/menu.png"
+                  alt="Menu"></a></li>
+            <li class="mobile-hidden"><a href="#">Contact</a></li>
+            <li class="mobile-hidden"><a href="#">A propos</a></li>
+            <li class="mobile-hidden"><a href="#">Histoire</a></li>
+            <li class="mobile-hidden"><a href="#">Ventes</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section id="products">
+        <h2>Nos produits phares</h2>
+        <div class="container">
+          <article>
+            <div class="card">
+              <img src="images/matcha1.jpg" alt="Avatar" style="width:100%">
+              <div class="card-container">
+                <h3>Thé Matcha latte</h3>
+                <p> Découvrez notre matcha de première qualité, récolté dans les
+                  meilleurs jardins du Japon. Son goût délicat et ses vertus
+                  pour la
+                  santé en font un choix parfait pour les amateurs de thé.</p>
+              </div>
+            </div>
+          </article>
 
-          <div class="product">
-            <img class="product2" src="/images/matcha2.jpg" alt="Matcha 2" />
-            <h2>Kit confection matcha</h2>
-            <p>
-              Notre matcha biologique est cultivé de manière durable, sans
-              pesticides ni produits chimiques. Profitez de son arôme riche et
-              de ses bienfaits pour une expérience de thé authentique.
-            </p>
-            <a href="#" class="buy-button">Acheter maintenant</a>
-          </div>
+          <article>
+            <div class="card">
+              <img src="images/matcha2.jpg" alt="Avatar" style="width:100%">
+              <div class="card-container">
+                <h3>Kit confection Matcha</h3>
+                <p> Notre matcha biologique est cultivé de manière durable, sans
+                  pesticides ni produits chimiques. Profitez de son arôme riche
+                  et
+                  de ses bienfaits pour une expérience de thé authentique.</p>
+              </div>
+            </div>
+          </article>
 
-          <div class="product">
-            <img class="product3" src="/images/matcha3.jpg" alt="Matcha 3" />
-            <h2>Matcha en patisserie</h2>
-            <p>
-              La texture fine de notre matcha en poudre le rend idéal pour la
-              préparation de boissons chaudes ou froides, ainsi que pour
-              l'incorporation dans des recettes de cuisine.
-            </p>
-            <a href="#" class="buy-button">Acheter maintenant</a>
-          </div>
+          <article>
+            <div class="card">
+              <img src="images/matcha3.jpg" alt="Avatar" style="width:100%">
+              <div class="card-container">
+                <h3>Matcha en patisserie</h3>
+                <p> La texture fine de notre matcha en poudre le rend idéal pour
+                  la
+                  préparation de boissons chaudes ou froides, ainsi que pour
+                  l'incorporation dans des recettes de cuisine.</p>
+              </div>
+            </div>
+          </article>
         </div>
-      </div>
-    </main>
+      </section>
+    </div>
+
     <footer>
-      <div class="footerNav">
+      <nav>
         <h2>Navigation</h2>
-        <a class="aFooter" href="#">Accueil</a>
-        <a class="aFooter" href="#">Ventes</a>
-        <a class="aFooter" href="#">Histoire</a>
-        <a class="aFooter" href="#">A propos</a>
-        <a class="aFooter" href="#">Contact</a>
-      </div>
-      <div class="footerMid">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Ventes</a></li>
+          <li><a href="#">Histoire</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-button">
         <h2>Merci de votre visite!</h2>
         <button>Restons en contact</button>
 
-        <p>La Plateforme_2024</p>
       </div>
-      <div class="footerCoord">
+      <div class="footer-contact-details">
         <h2>Coordonnées</h2>
-        <p>8 rue d'Hozier</p>
-        <p>13002</p>
-        <p>Marseille</p>
+        <p>8 rue d'Hozier 13002 Marseille</p>
       </div>
+
+      <div class></div>
     </footer>
   </body>
 </html>
