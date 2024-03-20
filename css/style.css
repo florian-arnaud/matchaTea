@@ -12,7 +12,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 body {
-  background-color: white;
+  background-color: #f5f5dc;
   margin: 0;
 }
 footer {
@@ -56,10 +56,8 @@ h1 {
 }
 
 aside {
-  width: 15%;
-  height: 90%;
+  width: 25%;
   background-color: #e8e8a8;
-  display: flex;
 }
 
 aside nav {
@@ -86,13 +84,13 @@ nav ul {
 }
 .content {
   display: flex;
+  align-items: end;
   justify-content: space-between;
   margin-left: 30px;
 }
 
 .product {
   text-align: center;
-  max-width: 300px;
 }
 
 .product img {
@@ -113,4 +111,22 @@ nav ul {
 
 .buy-button:hover {
   background-color: #45a049;
+}
+.container {
+  display: flex;
+}
+.product3 {
+  height: 22vw;
+  width: 80%;
+}
+.product2 {
+  height: 22vw;
+  width: 90%;
+}
+.product1 {
+  width: 90%;
+  height: 48vh;
+}
+.produitsphares {
+  display: flex;
 }
