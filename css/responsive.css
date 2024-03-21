@@ -111,4 +111,12 @@ width: 100%;
   flex-wrap: wrap;
   align-items: center;
 }
+
+.vertical-separator
+{
+  display: block;
+  width: 1px;
+  background-color: #3b7b31;
+}
+
 }

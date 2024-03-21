@@ -252,11 +252,17 @@ margin: auto;
 
 label
 {
-  margin-bottom: 20px;
+  margin: 10px 0 10px 0;
+  color: #3b7b31;
 }
 .input-field input, textarea, select
 {
   background-color: rgba(0,0,0,0.0);
   border: none;
-  border-bottom: 1px solid rgb(73, 72, 72);
+  border-bottom: 1px solid #3b7b31;
 }
+.vertical-separator
+{
+  display: none;
+}
+
