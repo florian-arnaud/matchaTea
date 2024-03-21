@@ -87,36 +87,4 @@
   }
 
 
-  /************************************* CONTACT ***************************/
-
-#main-container-contact
-{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-width: 100%;
-
-}
-
-#container-left-contact
-
-{
-  width: 30%;
-}
-#container-right-contact
-{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.vertical-separator
-{
-  display: block;
-  width: 1px;
-  background-color: #3b7b31;
-}
-
 }
