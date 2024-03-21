@@ -67,7 +67,6 @@ img.mobile-only {
 
 .main-container {
   display: flex;
-
 }
 
 .container {
@@ -99,10 +98,23 @@ img.mobile-only {
 }
 
 
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 200px;
+}
+
 .card-container {
   padding: 2px 16px;
 }
 
+.card h3
+{
+  display: block;
+  height: 60px;
+}
 article {
   width: 300px;
   margin-bottom: 5%;
@@ -134,6 +146,10 @@ button {
   width: 100%;
   text-transform: uppercase;
   color: white;
+}
+
+.card button {
+  margin-top: 20px;
 }
 
 .footer-copyright {
