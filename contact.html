@@ -1,17 +1,122 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>Matcha Tea - Contact</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <title>Matcha Tea - Nous contacter</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+            rel="stylesheet" />
     </head>
     <body>
         <header>
-            <nav></nav>
+            <img class="logo" src="images/icons8-matcha-tea-100.png" />
+            <h1 class="mobile-hidden">Matcha Tea</h1>
+            <img class="mobile-only" src="images/menu.png" alt="Menu">
+
+            <img class="logoprof" src="images/icons8-account-50.png"
+                alt="logo connexion" />
+
         </header>
-        <main></main>
-        <footer></footer>
-    </body>
-</html>
+
+        <div class="main-container">
+            <aside id="desktop-navbar">
+                <nav>
+                    <ul>
+                        <li class="mobile-hidden"><a href="#">Contact</a></li>
+                        <li class="mobile-hidden"><a href="#">A propos</a></li>
+                        <li class="mobile-hidden"><a href="#">Histoire</a></li>
+                        <li class="mobile-hidden"><a href="#">Ventes</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main id="main-container-contact">
+                <section id="container-left-contact">
+
+                    <h2>Restons en contact</h2>
+                    <p>Si vous voulez voir plus de notre travail, collaborer ou
+                        même
+                        simplement discuter, laissez-nous un message ! Nous
+                        attendrons de vos nouvelles.</p>
+                </section>
+
+                <div class="vertical-separator"></div>
+
+                <section id="container-right-contact">
+                    <form>
+                        <div class="input-field">
+                            <label for="civility">Civilité</label>
+                            <select name="civility" id="civility">
+                                <option value>Votre civilité</option>
+                                <option value="male">Monsieur</option>
+                                <option value="female">Madame</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="last-name">Entrez votre prénom</label>
+                            <input type="text" id="first-name" name="first-name"
+                                placeholder="Votre prénom" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="lname">Entrez votre nom</label>
+                            <input type="text" id="last-name" name="last-name"
+                                placeholder="Votre nom" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">Entrez votre adresse
+                                email</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="exemple@mail.com" required>
+                        </div>
+
+                        <div class="input-field-textarea">
+                            <label for="message">Écrivez votre message</label>
+                            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                        </div>
+                        </form>
+
+                    </section>
+                </main>
+
+            </div>
+
+            <footer>
+                <nav>
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Ventes</a></li>
+                        <li><a href="#">Histoire</a></li>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-button">
+                    <h2>Merci de votre visite!</h2>
+                    <button>Restons en contact</button>
+
+                </div>
+                <div class="footer-contact-details">
+                    <h2>Coordonnées</h2>
+                    <p>8 rue d'Hozier 13002 Marseille</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>© La Plateforme_</p>
+                </div>
+            </footer>
+        </body>
+    </html>
