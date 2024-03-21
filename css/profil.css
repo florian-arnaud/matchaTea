@@ -1,6 +1,6 @@
 /************************************* CONTACT ***************************/
 
-#main-container-contact
+#main-container-profile
 {
 display: flex;
 flex-direction: column;
@@ -9,12 +9,8 @@ margin: auto;
 
 }
 
-#container-left-contact
 
-{
-  width: 100%;
-}
-#container-right-contact
+section
 {
   width: 100%;
   display: flex;
@@ -24,14 +20,13 @@ margin: auto;
   justify-content: center;
 }
 
-.input-field, .input-field-textarea
+.input-field
 {
   display: flex;
   flex-direction: column;
   width: 70%;
 
 }
-
 
 label
 {
@@ -44,16 +39,17 @@ label
   border: none;
   border-bottom: 1px solid #3b7b31;
 }
-.vertical-separator
-{
-  display: none;
-}
 
+
+form
+{
+  width: 100%;
+}
 
 @media only screen and (min-width: 768px) {
       /************************************* CONTACT ***************************/
 
-#main-container-contact
+#main-container-profile
 {
 display: flex;
 flex-direction: row;
@@ -62,12 +58,8 @@ width: 100%;
 
 }
 
-#container-left-contact
 
-{
-  width: 30%;
-}
-#container-right-contact
+section
 {
   width: 50%;
   display: flex;
@@ -76,10 +68,4 @@ width: 100%;
   align-items: center;
 }
 
-.vertical-separator
-{
-  display: block;
-  width: 1px;
-  background-color: #3b7b31;
-}
 }
