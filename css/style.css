@@ -108,7 +108,7 @@ nav ul {
 .buy-button:hover {
   background-color: #45a049;
 }
-.container {
+.mainContainer {
   display: flex;
 }
 .product3 {
@@ -202,27 +202,74 @@ hr {
   height: 300px;
   border: 3px solid #3b7b31;
 }
-.produits img {
-  width: 400px;
-}
 
-.mosaique {
+.container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: auto 1fr 1fr;
+
+  width: 100%;
+
+  flex-direction: column;
+}
+#products > h2 {
+  text-align: left;
+  margin: 5% 0 5% 5%;
+}
+article {
+  width: 300px;
+  height: 600px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card img {
+  height: 250px;
 }
 
-.produits {
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+  max-height: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card-container p {
+  text-overflow: ellipsis;
+}
+
+/* Page client*/
+.compteNom {
+  width: 200px;
+}
+input {
+  border-bottom: solid 1px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background: none;
   text-align: center;
 }
 
-.produits img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.formProfil {
+  display: flex;
+  align-items: center;
 }
-
-.produits h3 {
-  margin-top: 10px;
-  font-size: 18px;
+.form-profil {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding-left: 350px;
+}
+.logocompte {
+  width: 100px;
+  padding-left: 200px;
+}
+/* Page mes commandes*/
+.commandes {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>Matcha Tea - Profil</title>
-    </head>
-    <body>
-        <header>
-            <nav></nav>
-        </header>
-        <main></main>
-        <footer></footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Matcha Tea - Profil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img class="logo" src="/images/icons8-matcha-tea-100.png"
+      /></a>
+      <h1>Matcha Tea</h1>
+      <button class="compteNom">Compte Nom</button>
+    </header>
+    <main>
+      <div class="mainContainer">
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="/profil.html">Profil</a></li>
+              <li><a href="/commandes.html">Commandes</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <section class="formProfil">
+          <form class="form-profil" action="">
+            <img
+              class="logocompte"
+              src="/images/icons8-account-50.png"
+              alt="logo compte"
+            />
+            <label for="nom">Nom:</label>
+            <input type="text" placeholder="Nom" />
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Email complet" />
+            <label for="adresse">Adresse:</label>
+            <input type="text" placeholder="Adresse complète" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footerNav">
+        <h2>Navigation</h2>
+        <a href="/index.html">Accueil</a>
+        <a href="/vente.html">Ventes</a>
+        <a href="/histoire.html">Histoire</a>
+        <a href="/apropos.html">A propos</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footerMid">
+        <h2>Merci de votre visite!</h2>
+        <button>Restons en contact</button>
+
+        <p>La Plateforme_2024</p>
+      </div>
+      <div class="footerCoord">
+        <h2>Coordonnées</h2>
+        <p>8 rue d'Hozier</p>
+        <p>13002</p>
+        <p>Marseille</p>
+      </div>
+    </footer>
+  </body>
 </html>
