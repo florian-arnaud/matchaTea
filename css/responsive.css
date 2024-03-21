@@ -8,7 +8,6 @@
   .mobile-only {
     display: none;
   }
-
   .mobile-hidden {
     display: block;
   }
@@ -34,6 +33,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
   }
   .mainContainer {
     display: flex;
@@ -55,5 +55,24 @@
 
   .footerMid {
     order: 0;
+  }
+  .logocompte {
+    padding-left: 10px;
+    width: 50px;
+  }
+  .form-profil {
+    width: 450px;
+  }
+  .formProfil {
+    display: flex;
+    padding-left: 350px;
+    align-items: center;
+  }
+  .equipe {
+    display: flex;
+    flex-direction: row;
+  }
+  .portrait {
+    margin-left: 100px;
   }
 }

@@ -1,32 +1,49 @@
 header {
   background-color: #f5f5dc;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
 }
 body {
   background-color: #f5f5dc;
   margin: 0;
 }
+/*FOOTER*/
 footer {
   background-color: #f5f5dc;
-  height: 30vh;
-  display: flex;
-  justify-content: space-around;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.footerNav {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-wrap: wrap;
+}
+
+.footer-button {
+  order: 1;
 }
 button {
-  border: solid;
-  border-radius: 5px;
+  border: 1px solid black;
   padding: 20px;
   text-align: center;
-  background-color: #f5f5dc;
+  background-color: #3b7b31;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
 }
+
+.footer-copyright {
+  width: 100%;
+  background-color: #e8e8a8;
+  text-align: center;
+}
+
+footer nav,
+.footerCoord,
+.footerMid {
+  padding: 2px 16px;
+}
+
 a {
   text-decoration: none;
   color: #3b7b31;
@@ -44,7 +61,7 @@ h3 {
   font-family: "Merienda", cursive;
 }
 .logo {
-  width: 5vw;
+  width: 75px;
 }
 .logoprof {
   width: 50px;
@@ -71,8 +88,7 @@ nav ul {
   width: 100%;
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
 }
 
 .aFooter {
@@ -195,12 +211,13 @@ hr {
 }
 .equipe {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .portrait {
   border-radius: 80%;
   height: 300px;
   border: 3px solid #3b7b31;
+  margin-left: 100px;
 }
 
 .container {
@@ -256,20 +273,39 @@ input {
 
 .formProfil {
   display: flex;
-  align-items: center;
+  padding-left: 100px;
 }
 .form-profil {
-  width: 500px;
-  display: flex;
-  justify-content: center;
-  padding-left: 350px;
+  width: 250px;
 }
+
 .logocompte {
-  width: 100px;
-  padding-left: 200px;
+  width: 50px;
+  padding-left: 100px;
 }
 /* Page mes commandes*/
 .commandes {
   display: flex;
   flex-direction: column;
+}
+/* Navbar */
+#desktop-navbar {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+.mobile-hidden {
+  display: none;
+}
+
+nav ul li img {
+  width: 50px;
+}
+img.mobile-only {
+  order: -1;
+  width: 25px;
+  height: 25px;
 }
