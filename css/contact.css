@@ -1,0 +1,85 @@
+/************************************* CONTACT ***************************/
+
+#main-container-contact
+{
+display: flex;
+flex-direction: column;
+width: 80%;
+margin: auto;
+
+}
+
+#container-left-contact
+
+{
+  width: 100%;
+}
+#container-right-contact
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field, .input-field-textarea
+{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+}
+
+
+label
+{
+  margin: 10px 0 10px 0;
+  color: #3b7b31;
+}
+.input-field input, textarea, select
+{
+  background-color: rgba(0,0,0,0.0);
+  border: none;
+  border-bottom: 1px solid #3b7b31;
+}
+.vertical-separator
+{
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+      /************************************* CONTACT ***************************/
+
+#main-container-contact
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+
+}
+
+#container-left-contact
+
+{
+  width: 30%;
+}
+#container-right-contact
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vertical-separator
+{
+  display: block;
+  width: 1px;
+  background-color: #3b7b31;
+}
+}
