@@ -33,31 +33,32 @@ header {
 .logo {
   width: 75px;
 }
-
 .logoprof {
   width: 50px;
   height: 50px;
 }
 
 /* NAVBAR*/
-#desktop-navbar {
+#desktop-navbar
+{
   display: none;
 }
-
-nav ul {
+nav ul
+{
   list-style: none;
   padding: 0;
 }
-
-.mobile-hidden {
+.mobile-hidden
+{
   display: none;
 }
 
-nav ul li img {
-  width: 50px;
+nav ul li img
+{
+    width: 50px;
 }
-
-img.mobile-only {
+img.mobile-only
+{
   order: -1;
   width: 25px;
   height: 25px;
@@ -65,70 +66,18 @@ img.mobile-only {
 
 /* MAIN CONTENT */
 
-.main-container {
+.main-container
+{
   display: flex;
 }
-
-.container {
+.container
+{
   width: 100%;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 
-} 
-
-
-
-
-
-
-
-
-#products {
-  width: 100%;
-}
-
-#products>h2 {
-  text-align: center;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(24, 107, 43, 0.2);
-  transition: 0.3s;
-  padding-bottom: 20px;
-
-}
-
-.card img {
-  height: 250px;
-}
-
-
-.card p {
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  max-height: 200px;
-}
-
-.card-container {
-  padding: 2px 16px;
-}
-
-.card h3
-{
-  display: block;
-  height: 60px;
-}
-article {
-  width: 300px;
-  margin-bottom: 5%;
-}
-
-article img {
-  width: 100%;
 }
 
 /*FOOTER*/
@@ -141,10 +90,10 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer-button {
+.footer-button
+{
   order: 1;
 }
-
 button {
   border: 1px solid black;
   padding: 20px;
@@ -155,71 +104,14 @@ button {
   color: white;
 }
 
-.card button {
-  margin-top: 20px;
-}
-
-.footer-copyright {
+.footer-copyright
+{
   width: 100%;
   background-color: #e8e8a8;
   text-align: center;
 }
 
-footer nav,
-.footer-contact-details,
-.footer-button {
+footer nav, .footer-contact-details, .footer-button
+{
   padding: 2px 16px;
 }
-
-
-
-.product {
-  text-align: center;
-}
-
-.product img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.buy-button {
-  display: inline-block;
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.buy-button:hover {
-  background-color: #45a049;
-}
-
-.container {
-  display: flex;
-
-}
-
-.product3 {
-  height: 22vw;
-  width: 80%;
-}
-
-.product2 {
-  height: 22vw;
-  width: 90%;
-}
-
-.product1 {
-  width: 90%;
-  height: 48vh;
-}
-
-.produitsphares {
-  display: flex;
-  width: 100%;
-}
-
-

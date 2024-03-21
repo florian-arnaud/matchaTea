@@ -1,24 +1,27 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)
+{
 
-  /******************************************************* NAVBAR *********************************************/
+/******************************************************* NAVBAR *********************************************/
 
-  #desktop-navbar {
-    display: block;
-  }
+#desktop-navbar
+{
+  display: block;
+}
 
-  .mobile-only {
+.mobile-only
+{
     display: none;
-  }
+}
 
-  .mobile-hidden {
-    display: block;
-  }
-
-  aside {
+.mobile-hidden
+{
+  display: block;
+}
+aside {
     width: 15%;
     background-color: #e8e8a8;
   }
-
+  
   aside nav {
     height: 100%;
     width: 100%;
@@ -26,8 +29,8 @@
     text-orientation: sideways;
     transform: rotate(-180deg);
   }
-
-  aside nav ul {
+  
+ aside nav ul {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -41,28 +44,32 @@
 
   /****************************************************** MAIN CONTENT ****************************************************/
 
+.main-container
+{
+  display: flex;
+}
 
+.container
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
 
-  .container {
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
 
-
-  /*********************************************FOOTER****************************************************/
-  footer {
+/*********************************************FOOTER****************************************************/
+footer {
     background-color: #f5f5dc;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-
-  .footer-button {
+  
+  .footer-button
+  {
     order: 0;
   }
-
-
-
 
 }
