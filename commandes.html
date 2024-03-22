@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/commandes.css">
+        <link rel="stylesheet" href="css/responsive.css" />
         <title>Matcha Tea - Mes commandes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+            rel="stylesheet" />
     </head>
     <body>
         <header>
-            <nav></nav>
+            <a href="index.html"><img class="logo"
+                    src="images/icons8-matcha-tea-100.png" /></a>
+            <h1 class="mobile-hidden">Matcha Tea</h1>
+            <img class="mobile-only" src="images/menu.png" alt="Menu">
+
+            <a href="profil.html"><img class="logoprof"
+                    src="images/icons8-account-50.png"
+                    alt="logo connexion" /></a>
         </header>
-        <main></main>
-        <footer></footer>
+        <div id="position-fixed-header"></div>
+            
+
+                <div class="mainContainer">
+                    <aside id="desktop-navbar">
+                        <nav>
+                            <ul>
+                                <li><a href="profil.html">Profil</a></li>
+                                <li><a href="commandes.html">Commandes</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+                     <div id="position-fixed-navbar"></div>
+
+                    <div class="container">
+                        <main>
+                            <h2>Mes commandes:</h2>
+                            <section>
+                                <div class="row"></div>
+                                <article>
+                                    <div class="card">
+                                      <img src="images/the_matcha_premium.jpg">
+                                      <div class="card-container">
+                                        <h3>Thé Matcha premium</h3>
+                                        <p>Commande expédiée</p>
+                                        <p>Arrivée prévue le 10/04/2024</p>
+                                        <button>Suivre votre commande</button>
+                                      </div>
+                                    </div>
+                                  </article>
+                        
+                                  <article>
+                                    <div class="card">
+                                      <img src="images/the_matcha_pancake.jpg">
+                                      <div class="card-container">
+                                        <h3>Pancake au thé matcha</h3>
+                                        <p>Commande en cours de traitement</p>
+                                        <p>Arrivée prévue le 15/04/2024</p>
+                                        <button>Suivre votre commande</button>
+                                      </div>
+                                    </div>
+                                  </article>
+
+                                  <article>
+                                    <div class="card">
+                                      <img src="images/matcha7.jpg">
+                                      <div class="card-container">
+                                        <h3>Thé Matcha du Japon</h3>
+                                        <p>Commande en cours de traitement</p>
+                                        <p>Arrivée prévue le 17/04/2024</p>
+                                        <button>Suivre votre commande</button>
+                                      </div>
+                                    </div>
+                                  </article>
+                        
+                            </section>
+                        </main>
+                        
+                        <footer>
+                            <nav>
+                                <h2>Navigation</h2>
+                                <ul>
+                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="vente.html">Ventes</a></li>
+                                    <li><a href="histoire.html">Histoire</a></li>
+                                    <li><a href="apropos.html">A propos</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="footer-button">
+                                <h2>Merci de votre visite!</h2>
+                                <button>Restons en contact</button>
+
+                            </div>
+                            <div class="footer-contact-details">
+                                <h2>Coordonnées</h2>
+                                <p>8 rue d'Hozier 13002 Marseille</p>
+                            </div>
+                            <div class="footer-copyright">
+                                <p>© La Plateforme_</p>
+                            </div>
+                        </footer>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
     </body>
 </html>
