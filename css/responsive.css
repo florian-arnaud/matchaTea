@@ -1,32 +1,29 @@
-@media only screen and (min-width: 768px)
-{
+@media only screen and (min-width: 768px) {
 
-/******************************************************* NAVBAR *********************************************/
-#position-fixed-navbar
-{
-  width: 10%;
-}
-#desktop-navbar
-{
-  display: block;
-}
+  /******************************************************* NAVBAR *********************************************/
+  #position-fixed-navbar {
+    width: 10%;
+  }
 
-.mobile-only
-{
+  #desktop-navbar {
+    display: block;
+  }
+
+  .mobile-only {
     display: none;
-}
+  }
 
-.mobile-hidden
-{
-  display: block;
-}
-aside {
+  .mobile-hidden {
+    display: block;
+  }
+
+  aside {
     width: 10%;
     height: 90%;
     position: fixed;
     background-color: #e8e8a8;
   }
-  
+
   aside nav {
     height: 100%;
     width: 100%;
@@ -34,8 +31,8 @@ aside {
     text-orientation: sideways;
     transform: rotate(-180deg);
   }
-  
- aside nav ul {
+
+  aside nav ul {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -49,17 +46,15 @@ aside {
 
   /****************************************************** MAIN CONTENT ****************************************************/
 
-.main-container
-{
-  display: flex;
-}
+  .main-container {
+    display: flex;
+  }
 
-.container
-{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-direction: row;
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
 
   }
 
@@ -81,17 +76,16 @@ aside {
   }
 
 
-/*********************************************FOOTER****************************************************/
-footer {
+  /*********************************************FOOTER****************************************************/
+  footer {
     background-color: #f5f5dc;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-  
-  .footer-button
-  {
+
+  .footer-button {
     order: 0;
   }
 
