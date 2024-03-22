@@ -28,8 +28,7 @@ h1 {
 header {
   background-color: #f5f5dc;
   display: flex;
-  justify-content: space-around;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -40,7 +39,7 @@ header {
   height: 13%;
 }
 .logo {
-  width: 75px;
+width: 75px;
 }
 .logoprof {
   width: 50px;
