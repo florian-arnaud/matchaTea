@@ -1,0 +1,46 @@
+.portrait {
+    border-radius: 80%;
+    height: 200px;
+    border: 3px solid #3b7b31;
+  }
+  main
+  {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .equipe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hugo, .florian
+{
+    width: 100%;
+}
+h2
+{
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 768px)
+{
+
+    .hugo, .florian
+{
+    width: 33%;
+}
+    .equipe
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .portrait {
+        border-radius: 80%;
+        height: 300px;
+        border: 3px solid #3b7b31;
+      }
+}
