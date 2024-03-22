@@ -90,6 +90,7 @@ img.mobile-only
 
 /*FOOTER*/
 footer {
+  width: 100%;
   background-color: #f5f5dc;
   display: flex;
   flex-direction: column;
