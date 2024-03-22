@@ -2,7 +2,10 @@
 {
 
 /******************************************************* NAVBAR *********************************************/
-
+#position-fixed-navbar
+{
+  width: 15%;
+}
 #desktop-navbar
 {
   display: block;
@@ -18,7 +21,9 @@
   display: block;
 }
 aside {
-    min-width: 15%;
+    width: 10%;
+    height: 90%;
+    position: fixed;
     background-color: #e8e8a8;
   }
   
