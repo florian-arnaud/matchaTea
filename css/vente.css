@@ -18,7 +18,7 @@
   }
   
   
-  .card p {
+  .card-container p {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
@@ -52,6 +52,13 @@
     width: 100%;
   }
 
+  .price
+{
+  color: #3b7b31;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
   @media only screen and (min-width: 768px)
 {
   .row
