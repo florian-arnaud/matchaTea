@@ -309,3 +309,25 @@ img.mobile-only {
   width: 25px;
   height: 25px;
 }
+
+.commande_en_cours img {
+  height: 200px;
+}
+.commande_en_cours {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  border: solid #3b7b31;
+}
+.bouton {
+  height: 70px;
+  width: 100%;
+}
+
+.commandes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
